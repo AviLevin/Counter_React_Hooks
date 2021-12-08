@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
+      <h1>Counter with <span className="title"> React Hooks</span></h1>
       <h2>You clicked {count} times!</h2>
 
       <button onClick={() => setCount(count - 1)}>Decrement</button>
